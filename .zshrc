@@ -27,3 +27,4 @@ zplugin load zsh-users/zsh-history-substring-search
 zplugin light zdharma/zui
 zplugin light zdharma/zplugin-crasis
 alias config='/usr/bin/git --git-dir=/home/jscarrott/.myconf/ --work-tree=/home/jscarrott'
+[[ -s /home/jscarrott/.autojump/etc/profile.d/autojump.sh ]] && source /home/jscarrott/.autojump/etc/profile.d/autojump.sh
