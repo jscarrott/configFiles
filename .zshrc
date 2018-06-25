@@ -16,8 +16,10 @@ compinit
 source '/home/jscarrott/.zplugin/bin/zplugin.zsh'
 autoload -Uz _zplugin
 (( ${+_comps} )) && _comps[zplugin]=_zplugin
+zplugin ice pick"async.zsh" src"pure.zsh"
+zplugin light dfurnes/purer
 zplugin load wfxr/forgit
-zplugin load https:chrissicool/zsh-256color
+zplugin load chrissicool/zsh-256color
 zplugin load zdharma/fast-syntax-highlighting
 zplugin load zdharma/history-search-multi-word
 zplugin load zsh-users/zsh-completions
