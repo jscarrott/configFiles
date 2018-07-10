@@ -18,6 +18,8 @@ zstyle ':completion:*' menu select
 source '/home/jscarrott/.zplugin/bin/zplugin.zsh'
 autoload -Uz _zplugin
 (( ${+_comps} )) && _comps[zplugin]=_zplugin
+zplugin ice from"gh-r" as"program"
+zplugin load junegunn/fzf-bin
 zplugin load wfxr/forgit
 zplugin load chrissicool/zsh-256color
 zplugin load zdharma/fast-syntax-highlighting
