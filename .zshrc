@@ -18,9 +18,11 @@ zstyle ':completion:*' menu select
 source '/home/jscarrott/.zplugin/bin/zplugin.zsh'
 autoload -Uz _zplugin
 (( ${+_comps} )) && _comps[zplugin]=_zplugin
+zplugin snippet OMZ::plugins/tmux/tmux.plugin.zsh
+zplugin snippet OMZ::plugins/autojump/autojump.plugin.zsh
+zplugin load wfxr/forgit
 zplugin ice from"gh-r" as"program"
 zplugin load junegunn/fzf-bin
-zplugin load wfxr/forgit
 zplugin load chrissicool/zsh-256color
 zplugin load zdharma/fast-syntax-highlighting
 zplugin load zdharma/history-search-multi-word
@@ -32,6 +34,7 @@ zplugin light zdharma/zui
 zplugin light zdharma/zplugin-crasis
 zplugin ice pick"async.zsh" src"pure.zsh"
 zplugin light sindresorhus/pure
+zplugin snippet OMZ::plugins/ubuntu/ubuntu.plugin.zsh
 alias config='/usr/bin/git --git-dir=/home/jscarrott/.myconf/ --work-tree=/home/jscarrott'
 [[ -s /home/jscarrott/.autojump/etc/profile.d/autojump.sh ]] && source /home/jscarrott/.autojump/etc/profile.d/autojump.sh
 [[ $TMUX = "" ]] && export TERM="xterm-256color"
