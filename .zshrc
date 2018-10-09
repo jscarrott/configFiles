@@ -42,3 +42,4 @@ alias config='/usr/bin/git --git-dir=/home/jscarrott/.myconf/ --work-tree=/home/
 #[[ $TMUX = "" ]] && export TERM="xterm-256color"
 #. /usr/share/autojump/autojump.sh
 [[ -s /home/jscarrott/.autojump/etc/profile.d/autojump.sh ]] && source /home/jscarrott/.autojump/etc/profile.d/autojump.sh
+export PATH=$PATH:~/.local/bin
