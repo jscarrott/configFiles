@@ -5,6 +5,7 @@ SAVEHIST=1000
 setopt autocd extendedglob notify COMPLETE_ALIASES HIST_IGNORE_ALL_DUPS 
 unsetopt BG_NICE
 bindkey -e
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/jscarrott/.zshrc'
