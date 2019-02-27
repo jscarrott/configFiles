@@ -16,6 +16,7 @@ l = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --
 
 a = add
 ap = add -p
+ai = add -i
 c = commit --verbose
 ca = commit -a --verbose
 cm = commit -m
