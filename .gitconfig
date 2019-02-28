@@ -1,3 +1,5 @@
+[include]
+	path = .localgitconfig
 [core]
 #	autocrlf = true
 	excludesfile = C:\\Users\\jscarrott\\Documents\\gitignore_global.txt
